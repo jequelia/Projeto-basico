@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="projeto.css">
+    <title>Perfil</title>
+    <script src="projeto.js"></script>
+
+</head>
+
+<body>
+
+    <div class="nav-bar">
+
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">DEV PROFILE</span>
+        </nav>
+
+    </div>
+
+    <section class="perfil">
+
+        <div class="img-content">
+            <img src="./perfil1.jpg" alt="foto de perfil">
+        </div>
+
+        <div class="user">
+            <h1>Jequelia Santana</h1>
+        </div>
+
+        <div class="profission">
+            <h3>Desenvolvedora de software</h3>
+        </div>
+
+    </section>
+
+
+    <div class="skill1">
+        <h4>Skills</h4>
+    </div>
+
+
+    <section class="flex">
+
+        <ul class="demo-table" id="besting">
+            <li><b>BESTING</b></li>
+            <li>Angular 2</li>
+            <li>Ionic3</li>
+            <li id="uxDesign">Ux Design</li>
+            <li>Java</li>
+        </ul>
+
+        <ul class="demo-table" id="medium">
+            <li><b>MEDIUM</b></li>
+            <li>SQL Server</li>
+            <li>Java Script</li>
+            <li id="scrum">Scrum</li>
+        </ul>
+
+        <ul class="demo-table" id="learning">
+            <li><b>LEARNING</b></li>
+            <li>Node.js</li>
+            <li id="springFramework">Spring Framework</li>
+            <li>React</li>
+        </ul>
+
+    </section>
+
+    <section class="entrada">
+
+        <div class="box">
+            <div>
+                <input placeholder="adicionar skill" type="text" class="besting-input">
+                <button onClick="add('.besting-input','#besting')">Ok</button>
+            </div>
+
+            <div>
+                <input placeholder="alterar skill" type="text" class="besting-altera">
+                <button onClick="change('.besting-altera', '#uxDesign')">Ok</button>
+            </div>
+
+        </div>
+
+
+        <div class="box">
+    
+            <div>
+                <input placeholder="adicionar skill" type="text" class="medium-input">
+                    <button onClick="add('.medium-input', '#medium')">Ok</button>
+                </div>
+
+            <div>
+                <input placeholder="alterar skill" type="text" class="medium-altera">
+                <button onClick="change('.medium-altera', '#scrum' )">Ok</button>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <div>
+                <input placeholder="adicionar skill" type="text" class="learning-input">
+                <button onClick="add('.learning-input','#learning')">Ok</button>
+            </div>
+
+            <div>
+                <input placeholder="alterar skill" type="text" class="learning-altera">
+                <button onClick="change('.learning-altera','#springFramework')">Ok</button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>

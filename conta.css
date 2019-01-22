@@ -1,0 +1,55 @@
+body{
+    background: #be1818;
+}
+
+.flex {
+    background-color: #322f2f;
+    width: 80%;
+    height: 590px;
+    margin: 100px auto;
+    border-radius: 9px;
+    display: flex;
+}
+
+.menu{
+    background-color: #403f3fbf;
+    width: 16%;
+    display: flex;
+    border-radius: 9px;
+}
+
+p {
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    text-align: center;
+    color: red;
+    font-size: 21px;
+}
+
+
+
+img{
+
+        vertical-align: middle;
+        border-style: none;
+        width: 61%;
+        height: 259px;
+        /* margin: 8% 1% 1% 1%; */
+    
+}
+
+
+
+
+.forms {
+    background-color: #403f3f;
+    width: 63%;
+    height: 401px;
+    margin: 162px auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+
